@@ -1,5 +1,22 @@
 # go-workflow-host
 
+## Maintenance moved to `github.com/hollis-labs/libs/workflow`
+
+This standalone repository is retired. Maintained source and documentation are
+in [github.com/hollis-labs/libs/workflow/host](https://github.com/hollis-labs/libs/tree/workflow%2Fv0.1.0/workflow/host), released in **`workflow/v0.1.0`**.
+Install the replacement module:
+
+```sh
+go get github.com/hollis-labs/libs/workflow@v0.1.0
+```
+
+Replace the `github.com/hollis-labs/go-workflow-host` import prefix with
+`github.com/hollis-labs/libs/workflow/host`, retaining the package subpath. Review the replacement documentation
+for any API changes before migrating. Existing standalone tags and history remain
+available; old module pins do not automatically redirect to the new module.
+
+The documentation below describes historical standalone usage.
+
 Host-side companions for [go-workflow](https://github.com/hollis-labs/go-workflow):
 building blocks a host application needs to run the engine, kept out of
 go-workflow's core so the core stays free of persistence and I/O
