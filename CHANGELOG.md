@@ -1,5 +1,15 @@
 # Changelog
 
+## Repository retirement — 2026-10-09
+
+### Changed
+
+- Maintained development moved to [github.com/hollis-labs/libs/workflow/host](https://github.com/hollis-labs/libs/tree/workflow%2Fv0.1.0/workflow/host) in
+  `github.com/hollis-labs/libs/workflow@v0.1.0` (`workflow/v0.1.0`).
+- This standalone repository is retired after the replacement release was
+  verified fetchable with successful module CI. README migration instructions
+  identify the new import prefix; existing standalone tags and history are preserved.
+
 All notable changes to go-workflow-host are documented here. The format
 follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
